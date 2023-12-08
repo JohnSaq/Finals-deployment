@@ -21,7 +21,7 @@ net = cv2.dnn.readNetFromDarknet('yolov3-tiny.cfg', 'yolov3-tiny.weights')
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_DEFAULT)
 net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
 
-file = st.file_uploader("Choose photo from computer", type=["jpg", "png", "jpeg"])
+file = st.file_uploader("Choose a photo from your computer", type=["jpg", "png", "jpeg"])
 
 classes_file = 'coco.names'
 with open(classes_file, 'r') as f:
