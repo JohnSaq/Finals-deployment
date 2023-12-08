@@ -6,8 +6,7 @@ st.write("# Object Detection using YOLOV3")
 
 
 st.markdown("Final Exam: Model Deployment in the Cloud") 
-st.text("Emmanuel Villanueva")
-st.text("Michael Vincent R. Alcoseba")
+
 st.text("John Terah Saquitan")
 
 st.text("CPE 019-CPE32S2 - Emerging Technologies 2 in CpE")
